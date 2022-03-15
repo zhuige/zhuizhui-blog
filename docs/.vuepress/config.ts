@@ -5,6 +5,7 @@ export default defineConfig({
   description: '追追的酸博客',
   base:'/zhuizhui-blog/',
   themeConfig: {
+    smoothScroll: true,
     sidebar: {
       '/面试/': [
         ['', '介绍'],
