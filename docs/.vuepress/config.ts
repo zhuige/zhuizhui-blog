@@ -11,4 +11,3 @@ export default defineConfig({
     },
   },
 })
-console.log(displayFile('面试'))
