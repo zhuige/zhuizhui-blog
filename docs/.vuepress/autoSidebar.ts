@@ -5,10 +5,10 @@ import path from 'path'
 export default function displayFile(name) {
   const dirPath = path.resolve(__dirname, '../' + name)
   const arr = []
-  arr.push('')
   const filearr = fs.readdirSync(dirPath)
   filearr.map((file) => {
-    if (file.split('.')[1] == 'md') {
+    if (file.split('.')[0] == 'README') {
+      arr.unshift('')
       return
     }
     arr.push({
@@ -20,7 +20,7 @@ export default function displayFile(name) {
   return arr
 }
 function handleChildren(dirPath, file) {
-  let arr = [`${file}/`]
+  let arr = []
   const filedir = path.join(dirPath, file)
   const filearr = fs.readdirSync(filedir)
   filearr.map((item: string) => {
