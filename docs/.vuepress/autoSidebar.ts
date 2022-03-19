@@ -7,15 +7,20 @@ export default function displayFile(name) {
   const arr = []
   const filearr = fs.readdirSync(dirPath)
   filearr.map((file) => {
+    const dp = path.join(dirPath,file)
+    const isdir = fs.statSync(dp).isDirectory()
     if (file.split('.')[0] == 'README') {
       arr.unshift('')
       return
-    }
+    }else if(!isdir){
+      arr.push(file)
+    }else{
     arr.push({
       title: file.split('.')[1],
       collapsable: true,
       children: handleChildren(dirPath, file),
     })
+  }
   })
   return arr
 }
