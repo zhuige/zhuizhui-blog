@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hero.jpg
+heroImage: /hero.png
 heroText: 追追的博客
 tagline: 技术笔记
 actionText: 快速查看 →
