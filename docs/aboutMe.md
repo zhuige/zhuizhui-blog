@@ -8,4 +8,4 @@
 
 加我好友 👇
 
-![扫码加我](/zhuige-blog/scan.jpg)
+![扫码加我](/zhuizhui-blog/scan.jpg)
