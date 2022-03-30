@@ -11,11 +11,13 @@ export default defineConfig({
     sidebar: {
       '/面试/': displayFile('面试'),
       '/docker/': displayFile('docker'),
-      '/aboutMe/':['aboutMe']
+      '/避坑/': displayFile('避坑'),
+      '/aboutMe/': ['aboutMe'],
     },
     nav: [
       { text: '前端面试', link: '/面试/' },
       { text: 'docker学习', link: '/docker/' },
+      { text: '避坑', link: '/避坑/' },
       { text: '关于我', link: '/aboutMe/' },
     ],
   },
