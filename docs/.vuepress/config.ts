@@ -9,6 +9,7 @@ export default defineConfig({
     logo: '/hero.png',
     smoothScroll: true,
     sidebar: {
+      '/linux/': displayFile('linux'),
       '/笔记/': displayFile('笔记'),
       '/面试/': displayFile('面试'),
       '/docker/': displayFile('docker'),
@@ -17,6 +18,7 @@ export default defineConfig({
       '/resume/': ['resume'],
     },
     nav: [
+      { text: 'linux', link: '/linux/' },
       { text: '笔记', link: '/笔记/' },
       { text: '前端面试', link: '/面试/' },
       { text: 'docker学习', link: '/docker/' },
