@@ -18,16 +18,16 @@
 
 - 熟练掌握 html5+css3+javascript，能快速高质量还原 UI 图
 - 熟练掌握 vue2/3，angular2+ 前端框架
-- 熟练掌握微信小程序开发，uni-app 框架，elementUI，ant design，组件化开发
+- 熟练掌握 微信小程序开发，uni-app 框架，elementUI，ant design，组件化开发
 - 熟练掌握 数据可视化 echarts，BMap 等工具库的使用
 - 熟练掌握 es6，异步编程，css 架构 以及 typescript
-- 熟练掌握 npm，nodejs，koa2， cli脚手架开发
+- 熟练掌握 js 运行机制原理，eventloop，vue2 核心原理
+- 熟练掌握 npm，nodejs，koa2， cli 脚手架开发
 - 熟练掌握 docker docker-compose 等部署应用工具
 - 熟练掌握 husky，eslint，git 等团队协作工具以及 git flow 流程
 - 熟悉基本的数据结构与算法，常见的设计模式，发布订阅，单例，工厂，等等
-- 熟悉 react.js，mysql，pm2，redis，nginx，CI/CD 等流程
-- 熟悉 js 运行机制原理，eventloop，vue2 核心原理
-- 熟悉 webpack4 打包工具相关配置
+- 熟悉 three.js 3D 框架, react.js，mysql，pm2，redis，nginx，CI/CD 等流程
+- 熟悉 webpack 打包工具相关配置
 
 ## 工作经历 Experience
 
@@ -150,13 +150,23 @@
 - uniapp 框架
 - colorUI
 
+### three.js 汽车 VR 看内饰 和 VR看房(2022)
+
+类似懂车帝汽车看内饰的实现
+
+- three.js
+
 ## 其他 Other
 
+- 看过 《JavaScript 高级程序设计》 这本书
 - 能熟练的使用 docker docker-compose 部署项目， 了解基本的服务器运维
-- 了解后端的一些概念，跟后端人员良好的配合
-- 时常学习时做笔记，写写博客，有时录教学视频放到 bilibli 上去，如 从零实现一个 promise https://www.bilibili.com/video/BV1av411q7sb
+- 熟悉后端的一些概念，跟后端人员良好的配合
+- 时常学习时做笔记，写写博客，有时录教学视频放到 bilibli 上去，比如:  
+  (从零实现一个 Promise) https://www.bilibili.com/video/BV1av411q7sb  
+  (Three.js 实现汽车 VR 看内饰)  
+  https://www.bilibili.com/video/BV11D4y117DQ
 - 仅在掘金发了一篇文章并被推上首页的文章 移动端 h5 丶小程序自定义凹陷 tabbar 中间悬浮按钮思路分享 https://juejin.cn/post/6991788985009831944
 
 ## 自荐语 Oneself
 
-阳光向上，品德高尚，责任感强。有良好的编码风格习惯，喜欢尽可能的写出优雅易懂易维护的代码，时刻关注新技术，业余会学习提升自身水平 ^o^
+阳光向上，品德良好，责任感强。有良好的编码风格习惯，喜欢尽可能的写出优雅易懂易维护的代码，时刻关注新技术，业余会学习提升自身水平 ^o^
