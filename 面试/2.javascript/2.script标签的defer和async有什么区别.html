@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>script 标签的 defer 和 async 有什么区别 | 追追的酸</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="追追的酸博客">
+    
+    <link rel="preload" href="/zhuizhui-blog/assets/css/0.styles.7b17bb8e.css" as="style"><link rel="preload" href="/zhuizhui-blog/assets/js/app.8524db52.js" as="script"><link rel="preload" href="/zhuizhui-blog/assets/js/2.ba3d8c29.js" as="script"><link rel="preload" href="/zhuizhui-blog/assets/js/31.d7514786.js" as="script"><link rel="prefetch" href="/zhuizhui-blog/assets/js/10.04f441da.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/11.b1e06c29.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/12.ab8cd98c.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/13.28930f45.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/14.414736b1.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/15.41c4a95e.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/16.63a56e2d.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/17.e21ebe86.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/18.b35de07f.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/19.9671176b.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/20.f75108c4.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/21.52d63d18.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/22.e11fe4cf.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/23.988b9110.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/24.13253c4d.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/25.e42e7e5f.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/26.6ff6a734.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/27.cb557fb9.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/28.9d44c905.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/29.b59a9891.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/3.1973fc80.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/30.2dbd7397.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/32.5e7659d5.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/33.f81ca9b6.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/34.ad5b0164.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/35.b8ca785e.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/36.378a3e3c.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/37.d8a75da2.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/38.4228ba23.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/39.7acdfab1.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/4.b2a35214.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/5.c3f6dbf1.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/6.4f54de74.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/7.80392ac1.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/8.9b307d45.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/9.80027a5e.js">
+    <link rel="stylesheet" href="/zhuizhui-blog/assets/css/0.styles.7b17bb8e.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/zhuizhui-blog/" class="home-link router-link-active"><img src="/zhuizhui-blog/hero.png" alt="追追的酸" class="logo"> <span class="site-name can-hide">追追的酸</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/zhuizhui-blog/linux/" class="nav-link">
+  linux
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/笔记/" class="nav-link">
+  笔记
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/面试/" class="nav-link">
+  前端面试
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/docker/" class="nav-link">
+  docker学习
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/避坑/" class="nav-link">
+  避坑
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/aboutMe/" class="nav-link">
+  关于我
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/resume/" class="nav-link">
+  简历
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/zhuizhui-blog/linux/" class="nav-link">
+  linux
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/笔记/" class="nav-link">
+  笔记
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/面试/" class="nav-link">
+  前端面试
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/docker/" class="nav-link">
+  docker学习
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/避坑/" class="nav-link">
+  避坑
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/aboutMe/" class="nav-link">
+  关于我
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/resume/" class="nav-link">
+  简历
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/zhuizhui-blog/%E9%9D%A2%E8%AF%95/" aria-current="page" class="sidebar-link">指引</a></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>数据结构与算法</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>javascript</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/zhuizhui-blog/面试/2.javascript/1.js基础.html" class="sidebar-link">基础</a></li><li><a href="/zhuizhui-blog/面试/2.javascript/2.script标签的defer和async有什么区别.html" class="active sidebar-link">script 标签的 defer 和 async 有什么区别</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/zhuizhui-blog/面试/2.javascript/2.script标签的defer和async有什么区别.html#普通-script-标签" class="sidebar-link">普通 script 标签</a></li><li class="sidebar-sub-header"><a href="/zhuizhui-blog/面试/2.javascript/2.script标签的defer和async有什么区别.html#加了-defer-的-script-标签" class="sidebar-link">加了 defer 的 script 标签</a></li><li class="sidebar-sub-header"><a href="/zhuizhui-blog/面试/2.javascript/2.script标签的defer和async有什么区别.html#加了-async-的-script-标签" class="sidebar-link">加了 async 的 script 标签</a></li></ul></li><li><a href="/zhuizhui-blog/面试/2.javascript/3.你知道的前端攻击.html" class="sidebar-link">你知道的前端攻击</a></li><li><a href="/zhuizhui-blog/面试/2.javascript/4.一道令人失眠的 promise 题.html" class="sidebar-link">一道令人失眠的 promise 题</a></li><li><a href="/zhuizhui-blog/面试/2.javascript/5.es6.html" class="sidebar-link">es6</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>vue</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>前端工程化</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="script-标签的-defer-和-async-有什么区别"><a href="#script-标签的-defer-和-async-有什么区别" class="header-anchor">#</a> script 标签的 defer 和 async 有什么区别</h1> <h2 id="普通-script-标签"><a href="#普通-script-标签" class="header-anchor">#</a> 普通 script 标签</h2> <ul><li>先加载 html</li> <li>遇到 script 再加载 script，此刻会先停止 html 的加载 (这里的加载指的是网络下载 script 文件)</li> <li>最后加载完 html 执行 script 的内容</li></ul> <h2 id="加了-defer-的-script-标签"><a href="#加了-defer-的-script-标签" class="header-anchor">#</a> 加了 defer 的 script 标签</h2> <ul><li>先加载 html</li> <li>遇到 script 并行加载 script</li> <li>最后加载完 html 执行 script 的内容</li></ul> <h2 id="加了-async-的-script-标签"><a href="#加了-async-的-script-标签" class="header-anchor">#</a> 加了 async 的 script 标签</h2> <ul><li>先加载 html</li> <li>遇到 script 并行加载 script</li> <li>最后执行完 script 再加载 html</li></ul></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/zhuizhui-blog/面试/2.javascript/1.js基础.html" class="prev">
+        基础
+      </a></span> <span class="next"><a href="/zhuizhui-blog/面试/2.javascript/3.你知道的前端攻击.html">
+        你知道的前端攻击
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/zhuizhui-blog/assets/js/app.8524db52.js" defer></script><script src="/zhuizhui-blog/assets/js/2.ba3d8c29.js" defer></script><script src="/zhuizhui-blog/assets/js/31.d7514786.js" defer></script>
+  </body>
+</html>

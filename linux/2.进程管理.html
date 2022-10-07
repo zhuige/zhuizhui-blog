@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>进程管理 | 追追的酸</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="追追的酸博客">
+    
+    <link rel="preload" href="/zhuizhui-blog/assets/css/0.styles.7b17bb8e.css" as="style"><link rel="preload" href="/zhuizhui-blog/assets/js/app.8524db52.js" as="script"><link rel="preload" href="/zhuizhui-blog/assets/js/2.ba3d8c29.js" as="script"><link rel="preload" href="/zhuizhui-blog/assets/js/17.e21ebe86.js" as="script"><link rel="prefetch" href="/zhuizhui-blog/assets/js/10.04f441da.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/11.b1e06c29.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/12.ab8cd98c.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/13.28930f45.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/14.414736b1.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/15.41c4a95e.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/16.63a56e2d.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/18.b35de07f.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/19.9671176b.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/20.f75108c4.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/21.52d63d18.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/22.e11fe4cf.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/23.988b9110.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/24.13253c4d.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/25.e42e7e5f.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/26.6ff6a734.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/27.cb557fb9.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/28.9d44c905.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/29.b59a9891.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/3.1973fc80.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/30.2dbd7397.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/31.d7514786.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/32.5e7659d5.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/33.f81ca9b6.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/34.ad5b0164.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/35.b8ca785e.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/36.378a3e3c.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/37.d8a75da2.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/38.4228ba23.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/39.7acdfab1.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/4.b2a35214.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/5.c3f6dbf1.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/6.4f54de74.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/7.80392ac1.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/8.9b307d45.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/9.80027a5e.js">
+    <link rel="stylesheet" href="/zhuizhui-blog/assets/css/0.styles.7b17bb8e.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/zhuizhui-blog/" class="home-link router-link-active"><img src="/zhuizhui-blog/hero.png" alt="追追的酸" class="logo"> <span class="site-name can-hide">追追的酸</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/zhuizhui-blog/linux/" class="nav-link router-link-active">
+  linux
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/笔记/" class="nav-link">
+  笔记
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/面试/" class="nav-link">
+  前端面试
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/docker/" class="nav-link">
+  docker学习
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/避坑/" class="nav-link">
+  避坑
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/aboutMe/" class="nav-link">
+  关于我
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/resume/" class="nav-link">
+  简历
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/zhuizhui-blog/linux/" class="nav-link router-link-active">
+  linux
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/笔记/" class="nav-link">
+  笔记
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/面试/" class="nav-link">
+  前端面试
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/docker/" class="nav-link">
+  docker学习
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/避坑/" class="nav-link">
+  避坑
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/aboutMe/" class="nav-link">
+  关于我
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/resume/" class="nav-link">
+  简历
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/zhuizhui-blog/linux/" aria-current="page" class="sidebar-link">指引</a></li><li><a href="/zhuizhui-blog/linux/1.linux基础.html" class="sidebar-link">linux 基础</a></li><li><a href="/zhuizhui-blog/linux/2.进程管理.html" class="active sidebar-link">进程管理</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/zhuizhui-blog/linux/2.进程管理.html#进程优先级调整" class="sidebar-link">进程优先级调整</a></li><li class="sidebar-sub-header"><a href="/zhuizhui-blog/linux/2.进程管理.html#进程的作业控制" class="sidebar-link">进程的作业控制</a></li><li class="sidebar-sub-header"><a href="/zhuizhui-blog/linux/2.进程管理.html#进程信号通信" class="sidebar-link">进程信号通信</a></li><li class="sidebar-sub-header"><a href="/zhuizhui-blog/linux/2.进程管理.html#守护进程" class="sidebar-link">守护进程</a></li><li class="sidebar-sub-header"><a href="/zhuizhui-blog/linux/2.进程管理.html#服务管理工具-systemctl" class="sidebar-link">服务管理工具 systemctl</a></li></ul></li><li><a href="/zhuizhui-blog/linux/3.内存和磁盘管理.html" class="sidebar-link">内存和磁盘管理</a></li><li><a href="/zhuizhui-blog/linux/4.shell编程.html" class="sidebar-link">shell 编程</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="进程管理"><a href="#进程管理" class="header-anchor">#</a> 进程管理</h1> <p>查看进程命令</p> <ul><li>ps -elf</li> <li>ps -ef | grep node 查看包含node命令的进程 (使用了管道符)</li> <li>pstree</li> <li>top</li></ul> <h2 id="进程优先级调整"><a href="#进程优先级调整" class="header-anchor">#</a> 进程优先级调整</h2> <ul><li>nice 范围从-20 到 19 值越小优先级越高，抢占资源越多</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code>运行并设置
+<span class="token function">nice</span> <span class="token parameter variable">-n</span> <span class="token number">10</span> xxx.sh
+</code></pre></div><ul><li>renice 重新设置优先级</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">renice</span> <span class="token parameter variable">-n</span> <span class="token number">15</span> pid
+</code></pre></div><h2 id="进程的作业控制"><a href="#进程的作业控制" class="header-anchor">#</a> 进程的作业控制</h2> <ul><li>jobs</li> <li>&amp; 符号
+后台运行这个程序</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code>xxx.sh <span class="token operator">&amp;</span>
+</code></pre></div><p>调回来前台</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">fg</span> <span class="token punctuation">[</span>jobnumber<span class="token punctuation">]</span>
+</code></pre></div><p>jobnumber 可以使用 jobs 查看</p> <p>已经在前台再调回来后台 ctrl + z 并且停止状态
+恢复<br>
+使用 fg 前台运行<br>
+bg 后台运行</p> <h2 id="进程信号通信"><a href="#进程信号通信" class="header-anchor">#</a> 进程信号通信</h2> <p>典型用法是：终端用户输入中断命令 通过信号机制停止程序 kill</p> <h3 id="kill-l-查看-kill-操作序号"><a href="#kill-l-查看-kill-操作序号" class="header-anchor">#</a> kill -l 查看 kill 操作序号</h3> <h3 id="kill-9-pid-杀掉进程"><a href="#kill-9-pid-杀掉进程" class="header-anchor">#</a> kill -9 pid 杀掉进程</h3> <h2 id="守护进程"><a href="#守护进程" class="header-anchor">#</a> 守护进程</h2> <ul><li><p>nohup 后台运行程序</p></li> <li><p>第三方工具 screen</p></li> <li><p>系统日志 /var/log</p></li></ul> <h2 id="服务管理工具-systemctl"><a href="#服务管理工具-systemctl" class="header-anchor">#</a> 服务管理工具 systemctl</h2> <ul><li>systemctl 常见操作
+<ul><li>system start|stop|restart|reload|enable|disable 服务名称</li> <li>软件包安装的服务单元 /usr/lib/systemd/system/</li></ul></li></ul></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/zhuizhui-blog/linux/1.linux基础.html" class="prev">
+        linux 基础
+      </a></span> <span class="next"><a href="/zhuizhui-blog/linux/3.内存和磁盘管理.html">
+        内存和磁盘管理
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/zhuizhui-blog/assets/js/app.8524db52.js" defer></script><script src="/zhuizhui-blog/assets/js/2.ba3d8c29.js" defer></script><script src="/zhuizhui-blog/assets/js/17.e21ebe86.js" defer></script>
+  </body>
+</html>

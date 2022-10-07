@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>栈 | 追追的酸</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="追追的酸博客">
+    
+    <link rel="preload" href="/zhuizhui-blog/assets/css/0.styles.7b17bb8e.css" as="style"><link rel="preload" href="/zhuizhui-blog/assets/js/app.8524db52.js" as="script"><link rel="preload" href="/zhuizhui-blog/assets/js/2.ba3d8c29.js" as="script"><link rel="preload" href="/zhuizhui-blog/assets/js/28.9d44c905.js" as="script"><link rel="prefetch" href="/zhuizhui-blog/assets/js/10.04f441da.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/11.b1e06c29.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/12.ab8cd98c.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/13.28930f45.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/14.414736b1.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/15.41c4a95e.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/16.63a56e2d.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/17.e21ebe86.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/18.b35de07f.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/19.9671176b.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/20.f75108c4.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/21.52d63d18.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/22.e11fe4cf.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/23.988b9110.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/24.13253c4d.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/25.e42e7e5f.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/26.6ff6a734.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/27.cb557fb9.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/29.b59a9891.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/3.1973fc80.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/30.2dbd7397.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/31.d7514786.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/32.5e7659d5.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/33.f81ca9b6.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/34.ad5b0164.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/35.b8ca785e.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/36.378a3e3c.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/37.d8a75da2.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/38.4228ba23.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/39.7acdfab1.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/4.b2a35214.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/5.c3f6dbf1.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/6.4f54de74.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/7.80392ac1.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/8.9b307d45.js"><link rel="prefetch" href="/zhuizhui-blog/assets/js/9.80027a5e.js">
+    <link rel="stylesheet" href="/zhuizhui-blog/assets/css/0.styles.7b17bb8e.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/zhuizhui-blog/" class="home-link router-link-active"><img src="/zhuizhui-blog/hero.png" alt="追追的酸" class="logo"> <span class="site-name can-hide">追追的酸</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/zhuizhui-blog/linux/" class="nav-link">
+  linux
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/笔记/" class="nav-link">
+  笔记
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/面试/" class="nav-link">
+  前端面试
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/docker/" class="nav-link">
+  docker学习
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/避坑/" class="nav-link">
+  避坑
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/aboutMe/" class="nav-link">
+  关于我
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/resume/" class="nav-link">
+  简历
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/zhuizhui-blog/linux/" class="nav-link">
+  linux
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/笔记/" class="nav-link">
+  笔记
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/面试/" class="nav-link">
+  前端面试
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/docker/" class="nav-link">
+  docker学习
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/避坑/" class="nav-link">
+  避坑
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/aboutMe/" class="nav-link">
+  关于我
+</a></div><div class="nav-item"><a href="/zhuizhui-blog/resume/" class="nav-link">
+  简历
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/zhuizhui-blog/%E9%9D%A2%E8%AF%95/" aria-current="page" class="sidebar-link">指引</a></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>数据结构与算法</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/zhuizhui-blog/面试/1.数据结构与算法/1.时间复杂与空间复杂度科普.html" class="sidebar-link">时间复杂度与空间复杂度科普</a></li><li><a href="/zhuizhui-blog/面试/1.数据结构与算法/2.栈.html" class="active sidebar-link">栈</a></li><li><a href="/zhuizhui-blog/面试/1.数据结构与算法/3.链表.html" class="sidebar-link">链表</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>javascript</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>vue</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>前端工程化</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="栈"><a href="#栈" class="header-anchor">#</a> 栈</h1></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/zhuizhui-blog/面试/1.数据结构与算法/1.时间复杂与空间复杂度科普.html" class="prev">
+        时间复杂度与空间复杂度科普
+      </a></span> <span class="next"><a href="/zhuizhui-blog/面试/1.数据结构与算法/3.链表.html">
+        链表
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/zhuizhui-blog/assets/js/app.8524db52.js" defer></script><script src="/zhuizhui-blog/assets/js/2.ba3d8c29.js" defer></script><script src="/zhuizhui-blog/assets/js/28.9d44c905.js" defer></script>
+  </body>
+</html>
